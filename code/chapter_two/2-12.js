@@ -10,6 +10,8 @@ const channel = new Events.EventEmitter();
 channel.clients = {};
 channel.subscriptions = {};
 
+channel.setMaxListeners(50);
+
 channel.on('join', function (id, client) {
   this.clients[id] = client;
   this.subscriptions[id] = (senderId, message) => {
@@ -18,6 +20,8 @@ channel.on('join', function (id, client) {
       this.clients[id].write(message);
     }
   };
+  const welcome = `Welcome! Guests online: ${this.listeners('broadcast').length}`;
+  client.write(`${welcome}\n`);
   this.on('broadcast', this.subscriptions[id]);
 });
 
