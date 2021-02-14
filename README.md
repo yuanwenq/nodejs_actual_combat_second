@@ -5,3 +5,4 @@
 - [2-11 用事件发射器实现的简单的发布/预订系统](./code/chapter_two/2-11.js)
 - [2-12 创建一个在用户断开连接时能“打扫战场”的监听器](./code/chapter_two/2-12.js)
 - [2-13 扩展事件发射器的功能](./code/chapter_two/2-13/Watch.js)
+- [2-17 在一个简单的程序中实现串行化流程控制](./code/chapter_two/2-14/index.js)
