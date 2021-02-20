@@ -14,3 +14,4 @@
 
 - [3.1 开始一个新的 web 程序](./code/chapter_three/3-1-later/index.js)
 - [3.2 搭建一个RESTful web 服务](./code/chapter_three/3-2-restful/index.js)
+- [3.3 添加数据库](./code/chapter_three/3-2-restful/index.js)
