@@ -21,3 +21,7 @@
 
 - [用 Gulsp 实现自动化](./code/chapter_four/gulp/README.md)
 - [用 webpack 构建 web 程序](./code/chapter_four/webpack/README.md)
+
+## 第6章 深入了解 Connect 和 Express
+
+- [Connect](./code/chapter_five/connect/README.md)
