@@ -16,3 +16,8 @@
 - [3.2 搭建一个RESTful web 服务](./code/chapter_three/3-2-restful/index.js)
 - [3.3 添加数据库](./code/chapter_three/3-2-restful/index.js)
 - [3.4 添加用户界面](./code/chapter_three/3-4-ejs/index.js)
+
+## 第四章 前端构建系统
+
+- [用 Gulsp 实现自动化](./code/chapter_four/gulp/README.md)
+- [用 webpack 构建 web 程序](./code/chapter_four/webpack/README.md)
