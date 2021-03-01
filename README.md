@@ -25,3 +25,4 @@
 ## 第6章 深入了解 Connect 和 Express
 
 - [Connect](./code/chapter_five/connect/README.md)
+- [Express](./code/chapter_five/express/README.md)
